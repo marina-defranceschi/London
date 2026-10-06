@@ -33,6 +33,10 @@ const SPOTS = [
    lat:51.51754, lng:-0.10988, photo:"https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Barnard's_Inn_Hall_(Gresham_College).jpg/960px-Barnard's_Inn_Hall_(Gresham_College).jpg", credit:{"by": "Jamesfranklingresham", "license": "CC BY-SA 3.0", "url": "https://commons.wikimedia.org/wiki/File:Barnard's_Inn_Hall_(Gresham_College).jpg"}, photoNote:"Barnard's Inn Hall, where many lectures take place", link:"",
    note:"Free public lectures, many held in the historic Barnard's Inn Hall. Check the lecture calendar for dates."},
 
+  {name:"Courtauld Gallery", cat:"do", kind:"Museum", area:"Somerset House, Strand",
+   lat:51.51159, lng:-0.11756, photo:"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Courtauld_Gallery,_Staircase.jpg/960px-Courtauld_Gallery,_Staircase.jpg", credit:{"by": "Mike Peel", "license": "CC BY-SA 4.0", "url": "https://commons.wikimedia.org/wiki/File:Courtauld_Gallery,_Staircase.jpg"}, link:"",
+   note:"Small gallery with famous Impressionists: Manet, Monet, Van Gogh, Cézanne. Ticketed (about £14); book ahead."},
+
   /* ---------- STREETS TO WANDER (blue) ---------- */
   {name:"Notting Hill", cat:"do", kind:"Street to wander", area:"Notting Hill",
    lat:51.51330, lng:-0.20330, photo:"https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Colourful_houses_in_Lancaster_Road,_Notting_Hill_2020-07-05.jpg/960px-Colourful_houses_in_Lancaster_Road,_Notting_Hill_2020-07-05.jpg", credit:{"by": "Bex Walton", "license": "CC BY 2.0", "url": "https://commons.wikimedia.org/wiki/File:Colourful_houses_in_Lancaster_Road,_Notting_Hill_2020-07-05.jpg"}, link:"",
@@ -84,6 +88,14 @@ const SPOTS = [
   {name:"Uniqlo", cat:"shop", kind:"Clothes", area:"Oxford Street (Tottenham Court Rd)",
    lat:51.51625, lng:-0.13065, photo:"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Uniqlo_Regent_Street,_London.jpg/960px-Uniqlo_Regent_Street,_London.jpg", credit:{"by": "Mark from Woking", "license": "CC BY 2.0", "url": "https://commons.wikimedia.org/wiki/File:Uniqlo_Regent_Street,_London.jpg"}, photoNote:"The Regent Street branch", link:"",
    note:"One Oxford Street branch."},
+
+  {name:"Keith Fawkes", cat:"shop", kind:"Secondhand books & antiques", area:"Hampstead",
+   lat:51.55651, lng:-0.17771, photo:"https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Keith_Fawkes.jpg/960px-Keith_Fawkes.jpg", credit:{"by": "It's No Game", "license": "CC BY 2.0", "url": "https://commons.wikimedia.org/wiki/File:Keith_Fawkes.jpg"}, link:"",
+   note:"Secondhand bookshop and antiques, books stacked floor to ceiling. 1–3 Flask Walk. Closed Mondays."},
+
+  {name:"Choosing Keeping", cat:"shop", kind:"Stationery", area:"Seven Dials / Covent Garden",
+   lat:51.51315, lng:-0.12751, photo:"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Guild_House,_18_Tower_Street,_Seven_Dials,_Covent_Garden,_December_2022.jpg/960px-Guild_House,_18_Tower_Street,_Seven_Dials,_Covent_Garden,_December_2022.jpg", credit:{"by": "No Swan So Fine", "license": "CC BY-SA 4.0", "url": "https://commons.wikimedia.org/wiki/File:Guild_House,_18_Tower_Street,_Seven_Dials,_Covent_Garden,_December_2022.jpg"}, photoNote:"Tower Street, the street it's on", link:"",
+   note:"Very nice stationery shop with an old London feeling: fountain pens, notebooks, beautiful papers."},
 
   /* ---------- FOOD: CHINATOWN (red) ---------- */
   {name:"Joy Bao", cat:"food", kind:"Bao (takeaway)", area:"Chinatown",
